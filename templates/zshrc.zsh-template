@@ -112,3 +112,4 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias activate='test -d venv && source ./venv/bin/activate || echo "No Virtualenv in the current folder"'
