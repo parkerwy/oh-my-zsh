@@ -66,6 +66,7 @@ case "${platform}" in
       extract
       mvn
       python
+      k
     )
     ;;
   Darwin*)
