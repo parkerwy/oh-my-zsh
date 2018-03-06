@@ -66,6 +66,7 @@ case "${platform}" in
       extract
       mvn
       python
+      colored-man-pages
       k
     )
     ;;
@@ -77,6 +78,7 @@ case "${platform}" in
       extract
       mvn
       python
+      colored-man-pages
       k
     )
     ;;
