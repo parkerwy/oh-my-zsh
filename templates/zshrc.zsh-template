@@ -92,7 +92,9 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8     # required for macos
+export LC_ALL=en_US.UTF-8   # required for macos
+
 
 # force pip to install to virtual environment by default.
 export PIP_REQUIRE_VIRTUALENV=true
