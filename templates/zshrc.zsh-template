@@ -84,6 +84,7 @@ case "${platform}" in
       python
       colored-man-pages
       k
+      aws
     )
     ;;
   *)
